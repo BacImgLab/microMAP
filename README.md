@@ -1,2 +1,2 @@
-# CoMET-FISH
-Code Package for CoMET-FISH
+# microMAP
+Code Package formicroMAP
