@@ -767,19 +767,3 @@ The current A-to-J filename prefixes should be retained because they act as a bu
 - Monte Carlo permutation counts directly affect runtime and p-value resolution.
 
 - The stitching procedure assumes that numerical `Pos` order corresponds to the physical serpentine acquisition order.
-
-## Citation
-
-If this pipeline contributes to a publication, cite the corresponding microMAP study and the software packages used by the workflow, including Cellpose, PyStackReg, scikit-image, UMAP, igraph, and Leidenalg where applicable.
-
-Add the project-specific publication citation here:
-
-> Author(s). Title. Journal. Year. DOI.
-
-## License
-
-Add an open-source license before public release. Common choices include MIT, BSD-3-Clause, and GPL-3.0.
-
-## Contact
-
-Add the maintainer name, laboratory, institution, and contact email here.
