@@ -350,6 +350,8 @@ The current implementation uses 11 rounds and five fluorescence channels.
 ```
 
 The script also generates experiment-wide count and barcode-matching summaries.
+### This step can be finished by BacUnet decoding network.
+
 
 ### F1. Decoded Image Extraction and Standardization
 
