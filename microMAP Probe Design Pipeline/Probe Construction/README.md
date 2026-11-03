@@ -24,7 +24,7 @@ The provided input files are reduced example datasets intended to demonstrate th
 
 `main_design_probes.R`
 
-Candidate primary probes are designed from input 16S rRNA reference sequences using DECIPHER.
+Candidate primary probes are designed from input 16S rRNA reference sequences using [DECIPHER](https://bioconductor.org/packages/release/bioc/html/DECIPHER.html).
 
 The workflow:
 
