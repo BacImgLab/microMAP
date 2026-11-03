@@ -1,0 +1,8 @@
+cd /CX/neuro_tracking/ruifanghai/code/u2net
+python predict_Bac11.py  --split_json 'split_info_cated.json' --data_loader 'v5' --ckpt '/CX/neuro_tracking/ruifanghai/bacteriaML_12round11bac_train/mix_11/ddp_crop68_u2net_full_v5_clip/bce_mix_11_trBac_9_lr_1.0e-04_rsm_mix10_bw0.05_bs_4/ckpt/checkpoint_best.pth' --gt_name 'view_gt_crop_merge' --im_name 'view_im_merge' --output_dir '/CX/neuro_tracking/ruifanghai/bacteriaML_12round11bacview1_result' 
+#python predict_Bac11.py --split_json 'split_info_cated_view1.json' --gt_name 'view1_gt_crop' --im_name 'view1_im' --output_dir '/CX/neuro_tracking/ruifanghai/bacteriaML_12round11bacview1_result' 
+#python predict_Bac11.py --split_json 'split_info_cated_view2.json' --gt_name 'view2_gt_crop' --im_name 'view2_im' --output_dir '/CX/neuro_tracking/ruifanghai/bacteriaML_12round11bacview2_result' 
+#python predict_Bac11.py --split_json 'split_info_cated_view3.json' --gt_name 'view3_gt_crop' --im_name 'view3_im' --output_dir '/CX/neuro_tracking/ruifanghai/bacteriaML_12round11bacview3_result' 
+#python predict_Bac11.py --split_json 'split_info_cated_view4.json' --gt_name 'view4_gt_crop' --im_name 'view4_im' --output_dir '/CX/neuro_tracking/ruifanghai/bacteriaML_12round11bacview4_result' 
+#python predict_Bac11.py --split_json 'split_info_cated_3ileum.json' --gt_name '3ileum_crop' --im_name '3ileum' --output_dir '/CX/neuro_tracking/ruifanghai/bacteriaML_3ileum_result'
+#python predict_Bac11.py --split_json 'split_info_cated_30ileum.json' --gt_name '30ileum_crop' --im_name '30ileum' --output_dir '/CX/neuro_tracking/ruifanghai/bacteriaML_30ileum_result'
