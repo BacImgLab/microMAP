@@ -1,0 +1,11 @@
+{
+  "base_dir": "output",
+  "input_fasta_path": "example/example_input.fasta",
+  "feature_table_path": "example/example_asv_abundance.csv",
+  "blast_db": "db/16S_ribosomal_RNA",
+  "blastn_bin": "blastn",
+  "taxonkit_bin": "taxonkit",
+  "csvtk_bin": "csvtk",
+  "num_threads": 8,
+  "export_unassigned_fasta": true
+}

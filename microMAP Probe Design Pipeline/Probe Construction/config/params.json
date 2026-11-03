@@ -1,0 +1,47 @@
+{
+  "global": {
+    "work_dir": ".",
+    "base_functions_dir": "functions",
+  
+    "input_fasta": "example/example_16S.fasta",
+    "abundance_file": "example/example_abundance.csv",
+    "codebook_path": "example/example_codebook.csv",
+    "sec_probes_path": "example/example_sec_probes.csv",
+  
+    "ref_16S_db": "outputs/ref_16S_db/ref_16S_db"
+  },
+
+  "step1_design_probes": {
+    "output_dir": "outputs/01_design_probes",
+    "candidate_probes": "outputs/01_design_probes/candidate_primary_probes_numbering.Rdata",
+    "candidate_probes_fasta": "outputs/01_design_probes/candidate_primary_probes.fasta"
+  },
+
+  "step2_pri_filter": {
+    "output_dir": "outputs/02_primary_filter",
+    "filter_primary_probes": "outputs/02_primary_filter/filter_primary_probes.Rdata",
+    "fin_primary_probes": "outputs/02_primary_filter/fin_primary_probes.Rdata"
+  },
+  
+  "step3_combine_probes": {
+    "output_dir": "outputs/03_combine_probes",
+    "candidate_combined_probes_fasta": "outputs/03_combine_probes/candidate_combined_probes.fasta",
+    "fin_comb_probes_fasta": "outputs/03_combine_probes/fin_comb_probes.fasta",
+    "fin_assigned_probes_core": "outputs/03_combine_probes/fin_assigned_probes_core.csv",
+    "fin_grouped_codebook_info": "outputs/03_combine_probes/fin_grouped_codebook_info.csv",
+    "assigned_codes": "outputs/03_combine_probes/assigned_codes.csv",
+    "available_probe_set": "outputs/03_combine_probes/available_probe_set.csv"
+  },
+  
+  "step4_helper_probes": {
+    "output_dir": "outputs/04_helper_probes",
+    "helper_probes_final_csv": "outputs/04_helper_probes/helper_probes_final.csv",
+    "helper_probes_final_rdata": "outputs/04_helper_probes/helper_probes_final.Rdata",
+    "helper_probes_final_fasta": "outputs/04_helper_probes/helper_probes_final.fasta"
+  },
+
+  "tools": {
+    "makeblastdb": "/ML/pcy_data/software/blast/ncbi-blast-2.15.0+/bin/makeblastdb",
+    "blastn": "/ML/pcy_data/software/blast/ncbi-blast-2.15.0+/bin/blastn"
+  }
+}
