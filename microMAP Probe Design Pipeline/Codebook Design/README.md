@@ -14,15 +14,12 @@ The workflow consists of two steps:
 
 ```text
 generate_initial_codebook.py
-        |
-        v
+        ↓
 initial_codebook/
     codebook_F{F}N{N}.csv
-        |
-        v
+        ↓
 optimize_error_correcting_codebook.py
-        |
-        v
+        ↓
 error_correcting_codebook/
     error_correcting_codebook_*.csv
     error_correcting_codebook_*.json
@@ -439,13 +436,10 @@ The complete workflow is:
 
 ```text
 F, N
- |
- v
+ ↓
 4-of-N initial codebook
- |
- v
+ ↓
 progressive Hamming-distance optimization
- |
- v
+ ↓
 error-correcting codebook
 ```
