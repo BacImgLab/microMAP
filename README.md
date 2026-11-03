@@ -1,2 +1,2 @@
 # microMAP
-Code Package formicroMAP
+Code Package for microMAP
