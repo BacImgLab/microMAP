@@ -8,9 +8,9 @@ The module is organized into three submodules. Reference database preparation an
 
 | Directory                                                | Submodule | Main purpose | Implementation |
 |----------------------------------------------------------| --- | --- | --- |
-| [`Reference Database/`](01_reference_database/README.md) | 16S rRNA Reference Database Construction | Process PacBio full-length 16S ASVs into a taxonomy-annotated, abundance-linked reference database | Python |
-| [`Codebook Design/`](02_codebook_design/README.md)       | Error-Correcting Codebook Design | Generate candidate codes and select codebooks satisfying a minimum Hamming-distance constraint | Python |
-| [`Probe Construction/`](03_probe_construction/README.md) | 16S rRNA Probe Design and Construction | Design and filter primary probes, construct barcode-encoded probes, assign codes, and generate helper probes | R |
+| [`Reference Database/`](Reference%20Database/README.md) | 16S rRNA Reference Database Construction | Process PacBio full-length 16S ASVs into a taxonomy-annotated, abundance-linked reference database | Python |
+| [`Codebook Design/`](Codebook%20Design/README.md)       | Error-Correcting Codebook Design | Generate candidate codes and select codebooks satisfying a minimum Hamming-distance constraint | Python |
+| [`Probe Construction/`](Probe%20Construction/README.md) | 16S rRNA Probe Design and Construction | Design and filter primary probes, construct barcode-encoded probes, assign codes, and generate helper probes | R |
 
 Each submodule contains its own `README.md` with dependencies, input formats, configuration, execution instructions, and output descriptions.
 
