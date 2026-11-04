@@ -10,7 +10,7 @@ This repository contains the computational workflows for microMAP, covering barc
 | --- | --- | --- |
 | [Probe Design](#probe-design) | Construct 16S rRNA reference databases, generate error-correcting codebooks, and design barcode-encoded probes | Python and R |
 | [Spatial Microbiome Analysis](#spatial-microbiome-analysis) | Process microscopy images, segment and decode bacterial cells, reconstruct spatial maps, and analyze microbial spatial organization | MATLAB and Python |
-| [BacUNet](#bacunet) | Train and apply a deep learning model for bacterial identification and segmentation from multi-channel fluorescence images | Python and PyTorch |
+| [BacUNet](#bacunet) | Train and apply a deep learning model for bacterial identification and segmentation from multi-channel fluorescence images | Python |
 
 Each module has its own README describing dependencies, input formats, configuration, execution instructions, and outputs.
 
